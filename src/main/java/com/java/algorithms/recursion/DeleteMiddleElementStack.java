@@ -26,7 +26,7 @@ public class DeleteMiddleElementStack {
         }
         //Hypothesis
         int x = stack.pop();
-        delete(stack, k-1);
+        recursiveDelete(stack, k-1);
         stack.push(x);
     }
 }
