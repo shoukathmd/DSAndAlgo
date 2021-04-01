@@ -30,7 +30,7 @@ public class QuadTree {
             System.out.printf("\n\t x=%d, y=%d", node.x, node.y);
         }
         if (tree.nodes.size() == 0) {
-            System.out.printf("\n\t Leaf Node")
+            System.out.printf("\n\t Leaf Node");
         }
         dfs(tree.northWest);
         dfs(tree.northEast);
